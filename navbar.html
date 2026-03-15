@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="tl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ibong Adarna Script</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        /* NAVBAR */
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #111;
+            color: white;
+            padding: 10px;
+            z-index: 1000;
+        }
+
+        .navbar h3 {
+            margin: 5px 0;
+        }
+
+        .navbar a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .audio-panel {
+            gap: 10px;
+            margin-top: 8px;
+        }
+
+        .audio-panel audio {
+            height: 28px;
+        }
+
+        /* PAGE */
+
+        .container {
+            margin-top: 180px;
+            padding: 40px;
+        }
+
+        .scene {
+            margin-top: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+        }
+
+        .character {
+            font-weight: bold;
+        }
+
+        audio {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+
+<body>
+
+
+    <!-- NAVBAR -->
+
+    <div class="navbar">
+        <h3>BACKGROUND MUSIC</h3>
+
+        <div class="audio-panel">
+            <p><b>MAGICAL 1</b></p>
+            <audio controls src="sounds/magical1.mp3"></audio>
+            <p><b>MAGICAL 2</b></p>
+            <audio controls src="sounds/magical2.mp3"></audio>
+            <p><b>FOREST LOOP</b></p>
+            <audio controls src="sounds/forest_loop.mp3"></audio>
+            <p><b>INTENSE</b></p><audio controls src="sounds/intense1.mp3"></audio>
+            <p><b>FIGHT</b></p>
+            <audio controls src="sounds/fight_theme.mp3"></audio>
+            <p><b>ROMANTIC</b></p>
+            <audio controls src="sounds/romantic.mp3"></audio>
+            <p><b>MARRIAGE</b></p>
+            <audio controls src="sounds/marriage_music.mp3"></audio>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+
+        <h1 style="text-align:center;">IBONG ADARNA</h1>
+
+
+        <div class="scene" id="scene1">
+            <p><b>FLASHBACK SOUND</b></p>
+            <audio controls src="sounds/flashback.mp3"></audio>
+
+            <p><b>TRUMPET SOUND</b></p>
+            <audio controls src="sounds/trumpet.mp3"></audio>
+
+            <p><b>CLAPPING SOUND</b></p>
+            <audio controls src="sounds/clap.mp3"></audio>
+
+            <p><b>DANCE MUSIC</b></p>
+            <audio controls src="sounds/dance.mp3"></audio>
+
+            <p><b>FALL SOUND</b></p>
+            <audio controls src="sounds/fall.mp3"></audio>
+        </div>
+
+
+
+        <div class="scene" id="scene2">
+            <p><b>FOREST SOUND</b></p>
+            <audio controls src="sounds/forest.mp3"></audio>
+
+            <p><b>BECOMING ROCK SOUND</b></p>
+            <audio controls src="sounds/rock.mp3"></audio>
+
+            <p><b>ROCK BREAKING SOUND</b></p>
+            <audio controls src="sounds/stonebreak.mp3"></audio>
+        </div>
+
+        <div class="scene" id="scene3">
+            <p><b>SWORD SWING</b></p>
+            <audio controls src="sounds/sword1.mp3"></audio>
+            <audio controls src="sounds/sword2.mp3"></audio>
+
+            <p><b>FALL</b></p>
+            <audio controls src="sounds/falldown.mp3"></audio>
+        </div>
+
+
+
+        <div class="scene" id="scene4">
+            <h2>TAGPO 4 – SERPIYENTE</h2>
+            <p><b>FALL</b></p>
+            <audio controls src="sounds/falldown.mp3"></audio>
+
+            <p>RIZZ</p>
+            <audio controls src="sounds/rizz.mp3"></audio>
+        </div>
+
+        <div class="scene" id="scene5">
+            <p><b>FALLING SOUND (replace if needed)</b></p>
+            <audio controls src="sounds/falldown.mp3"></audio>
+        </div>
+    </div>
+
+</body>
+
+</html>
