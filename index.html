@@ -4,18 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Ibong Adarna Script</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
             background: #f4f4f4;
-            margin: 40px;
             line-height: 1.6;
         }
 
-        h1,
-        h2 {
-            text-align: center;
+        /* SPLIT SCREEN NAVBAR */
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 260px;
+            height: 100vh;
+            overflow-y: auto;
+            background: #111;
+            color: white;
+            padding: 15px;
         }
+
+        /* SCRIPT SIDE */
+
+        .container {
+            margin-left: 280px;
+            padding: 40px;
+        }
+
+        /* SCENES */
 
         .scene {
             margin-top: 40px;
@@ -35,197 +54,128 @@
     </style>
 </head>
 
+
 <body>
 
-    <h1>IBONG ADARNA</h1>
 
-    <div class="scene">
-        <h2>TAGPO 1 – KAHARIAN NG BERBANYA</h2>
+    <!-- NAVBAR -->
 
-        <p><b>TAGAPAGSALAYSAY:</b><br>
-            Sa isang malayong kaharian ng Berbanya ay may isang hari at reyna na naninirahan kasama ang kanilang tatlong
-            anak na lalaki.</p>
+    <div class="navbar">
 
-        <p><b>FLASHBACK SOUND</b></p>
-        <audio controls src="sounds/flashback.mp3"></audio>
+        <h3>BACKGROUND MUSIC</h3>
 
-        <p>(Masayang tunog ng mga mamamayan)</p>
+        <p><b>MAGICAL 1</b></p>
+        <audio controls src="sounds/magical.mp3"></audio>
 
-        <p><b>TRUMPET SOUND</b></p>
-        <audio controls src="sounds/trumpet.mp3"></audio>
-
-        <p class="character">KAWAL 1:</p>
-        <p>Magbunyi sa pagdating ng mahal na Haring Fernando at Reyna Valeriana!</p>
-
-        <p class="character">KAWAL 2:</p>
-        <p>Kasama rin ang tatlong prinsipe ng Berbanya: Don Pedro, Don Diego, at Don Juan.</p>
-
-        <p><b>CLAPPING SOUND</b></p>
-        <audio controls src="sounds/clap.mp3"></audio>
-
-        <p><b>DANCE</b></p>
-        <audio controls src="sounds/dance.mp3"></audio>
-
-        <p class="character">HARING FERNANDO:</p>
-        <p>Magdiwang tayo para sa kapayapaan at mabuting kalusugan!</p>
-
-        <p>(Biglang hihimatay ang hari)</p>
-
-        <p><b>FALL DOWN</b></p>
-        <audio controls src="sounds/fall.mp3"></audio>
-
-        <p>change this sound</p>
-
-        <p class="character">REYNA VALERIANA:</p>
-        <p>Mga kawal! Magpatawag ng manggagamot!</p>
-
-        <p class="character">MANGGAGAMOT:</p>
-        <p>Ang lunas sa sakit ng hari ay ang awit ng mahiwagang Ibong Adarna sa Bundok Tabor.</p>
-
-        <p class="character">DON PEDRO:</p>
-        <p>Ako ang maghahanap sa ibon!</p>
-
-    </div>
-
-
-
-    <div class="scene">
-        <h2>TAGPO 2 – PIEDRAS PLATAS</h2>
-
-        <p><b>FOREST SOUND</b></p>
+        <p><b>FOREST LOOP</b></p>
         <audio controls src="sounds/forest.mp3"></audio>
 
-        <p>lessen sound when cataleya sings</p>
+        <p><b>INTENSE</b></p>
+        <audio controls src="sounds/intense1.mp3"></audio>
 
-        <p class="character">DON PEDRO:</p>
-        <p>(Pagod na naglalakad)</p>
+        <p><b>FIGHT</b></p>
+        <audio controls src="sounds/fightreal.mp3"></audio>
 
-        <p>(Unti unti siyang nagiging bato)</p>
+        <p><b>ROMANTIC</b></p>
+        <audio controls src="sounds/romantic.mp3"></audio>
 
-        <p><b>BECOMING ROCK SOUND</b></p>
-        <audio controls src="sounds/rock.mp3"></audio>
-
-        <p class="character">TAGAPAGSALAYSAY:</p>
-        <p>Hindi na nakabalik si Don Pedro kaya sumunod si Don Diego.</p>
-
-        <p class="character">DON DIEGO:</p>
-        <p>Don Pedro nasaan ka na?</p>
-
-        <p>(Mabubunggo niya ang estatwa ni Don Pedro)</p>
-
-        <p><b>BECOMING ROCK SOUND</b></p>
-        <audio controls src="sounds/rock.mp3"></audio>
-
-        <p>remove duplicate</p>
-
-        <p class="character">TAGAPAGSALAYSAY:</p>
-        <p>Sumunod si Don Juan upang hanapin ang kanyang mga kapatid.</p>
-
-        <p class="character">LEPROSO:</p>
-        <p>Ginoo limusan mo ako ng tinapay.</p>
-
-        <p class="character">DON JUAN:</p>
-        <p>Sa inyo na po ang aking tinapay.</p>
-
-        <p><b>ROCK BREAKING SOUND</b></p>
-        <audio controls src="sounds/stonebreak.mp3"></audio>
-    </div>
-
-
-
-    <div class="scene">
-        <h2>TAGPO 3 – LABAN KAY HIGANTE</h2>
-
-        <p><b>SWORD SWING</b></p>
-        <audio controls src="sounds/sword1.mp3"></audio>
-        <audio controls src="sounds/sword2.mp3"></audio>
-
-        <p><b>FALL</b></p>
-        <audio controls src="sounds/falldown.mp3"></audio>
-
-        <p class="character">HIGANTE:</p>
-        <p>Halika dito at dudurugin kita!</p>
-
-        <p class="character">DON JUAN:</p>
-        <p>Hindi ako matatakot!</p>
-
-        <p>(Matatalo ni Don Juan ang higante)</p>
-
-    </div>
-
-
-
-    <div class="scene">
-        <h2>TAGPO 4 – SERPIYENTE</h2>
-
-        <p><b>INTENSE FIGHTING MUSIC</b></p>
-        <audio controls src="sounds/fight.mp3"></audio>
-        <p>0.75 speed if needed</p>
-
-        <p class="character">SERPIYENTE:</p>
-        <p>Tamang tama ang pagdating mo binata!</p>
-
-        <p class="character">DON JUAN:</p>
-        <p>Hindi mo ako matatalo!</p>
-
-        <p>(Matatalo ang serpiyente)</p>
-
-    </div>
-
-
-
-    <div class="scene">
-        <h2>TAGPO 5 – PAGKAHULOG SA BALON</h2>
-
-        <p><b>FALLING SOUND</b></p>
-        <audio controls src="sounds/falldown.mp3"></audio>
-        <p>replace the sound</p>
-        <p class="character">TAGAPAGSALAYSAY:</p>
-        <p>Nahulog si Don Juan sa balon at nawalan ng malay.</p>
-
-    </div>
-
-
-    <div class="scene">
-        <h2>TAGPO 7 – KASAL</h2>
-
-        <p><b>MARRIAGE MUSIC</b></p>
+        <p><b>MARRIAGE</b></p>
         <audio controls src="sounds/marriage.mp3"></audio>
 
-        <p class="character">OBISPO:</p>
-        <p>Tinatanggap niyo ba ang mga prinsesang ito bilang inyong asawa?</p>
+        <hr>
 
-        <p class="character">TATLONG PRINSEPE:</p>
-        <p>Opo.</p>
+        <h3>HIGANTE FIGHT KEYS</h3>
+        <p>1 = Sword</p>
+        <p>2 = Sword</p>
+        <p>3 = Fall</p>
 
-        <p class="character">OBISPO:</p>
-        <p>Sa ngalan ng Ama, Anak at Espiritu Santo. Amen.</p>
-
-        <p><b>LAHAT:</b> Mabuhay ang bagong kasal!</p>
-
-        <p><b>MARRIAGE MUSIC</b></p>
-        <audio controls src="sounds/marriage.mp3"></audio>
+        <audio id="sword1" src="sounds/sword1.mp3"></audio>
+        <audio id="sword2" src="sounds/sword2.mp3"></audio>
+        <audio id="fallSound" src="sounds/falldown.mp3"></audio>
     </div>
 
-    <h2 style="text-align:center;">WAKAS</h2>
+
+
+    <div class="container">
+
+        <h1 style="text-align:center;">IBONG ADARNA</h1>
+
+
+        <div class="scene" id="scene1">
+
+            <p><b>FLASHBACK SOUND</b></p>
+            <audio controls src="sounds/flashback.mp3"></audio>
+
+            <p><b>TRUMPET SOUND</b></p>
+            <audio controls src="sounds/trumpet.mp3"></audio>
+
+            <p><b>CLAP SOUND</b></p>
+            <audio controls src="sounds/clap.mp3"></audio>
+
+            <p><b>DANCE MUSIC</b></p>
+            <audio controls src="sounds/dance.mp3"></audio>
+
+            <p><b>FALL SOUND</b></p>
+            <audio controls src="sounds/fall.mp3"></audio>
+
+        </div>
+
+
+
+        <div class="scene" id="scene2">
+            <p><b>BECOMING ROCK SOUND</b></p>
+            <audio controls src="sounds/rock.mp3"></audio>
+
+            <p><b>ROCK BREAKING SOUND</b></p>
+            <audio controls src="sounds/stonebreak.mp3"></audio>
+        </div>
+
+        <div class="scene" id="scene4">
+            <p>RIZZ</p>
+            <audio controls src="sounds/rizz.mp3"></audio>
+        </div>
+
+
+
+        <div class="scene" id="scene5">
+            <p><b>FALLING SOUND</b></p>
+            <audio controls src="sounds/falldowndonjuan.mp3"></audio>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        let fightMode = true;
+
+        document.addEventListener("keydown", function (e) {
+
+            if (!fightMode) return;
+
+            if (e.key === "1") {
+                let s = document.getElementById("sword1");
+                s.currentTime = 0;
+                s.play();
+            }
+
+            if (e.key === "2") {
+                let s = document.getElementById("sword2");
+                s.currentTime = 0;
+                s.play();
+            }
+
+            if (e.key === "3") {
+                let s = document.getElementById("fallSound");
+                s.currentTime = 0;
+                s.play();
+            }
+
+        });
+
+    </script>
+
 
 </body>
 
 </html>
-
-<!--
-add or gay
-
-fucking alot of magical and intense music
-2 more intense fighting shit music
-intense music for kasalan fight
-falling music
-2 diff magical music
-rizz sound
-romatic music
-more forest music
-
-nav bar (scroll)
-crop sfx
-
--->
